@@ -1,0 +1,70 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-size:  13px;
+  line-height:  1.4;
+}
+.page {
+  width:    800px;
+  height:   1024px;
+  padding:  20px;
+  text-align: left;
+  border: dashed 1px gray;
+}
+h1 {
+  color:    #27507B;
+  margin-top: 10px;
+}
+h2 {
+  font-size:  18px;
+  color:      #1F1f1f;
+}
+span.label {
+  font-size:  14px;
+  font-weight:  bold;
+  color:      #1F1f1f;
+}
+div.field {
+  margin-bottom:  10px;
+}
+.right-align {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.bold {
+  font-weight:  bold;
+}
+.blue-bg {
+  background-color: #EAECF9;
+}
+.pure-g > div {
+  box-sizing: border-box;
+}
+.l-box {
+  padding:    6px;
+}
+hr {
+  height:           0px;
+  border:           none;
+  height:           1px;
+  color:            #000;
+  background-color: #000;
+  margin-top:       20px;
+}
+.signatureFormEl {
+  margin-top:   20px;
+  width:      250px;
+  height:     120px;
+}
+.signatureFormElField {
+  height:       50px;
+  display:      flex;
+}
+.signatureFormElFieldContent {
+  display: inline-block;
+  align-self: flex-end;
+}
+img.signature {
+  height:       50px;
+}

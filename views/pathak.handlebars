@@ -1,0 +1,107 @@
+{{#section 'styles'}}
+<style>
+</style>
+{{/section}}
+
+<center>
+<div class="page">
+  <div id="header">
+    <div class="right-align">Monday, June 22, 2020 1:15 PM</div>
+    <h1 class="center">Patient Registration Form</h1>
+  </div>
+  <div class="pure-g">
+    <div class="pure-u-1-3 blue-bg l-box">
+      <section>
+        <h2>Basic Information</h2>
+        <div class="field"><span class="label">Patient name</span><br /><span>{{data.patient.lastName}} {{data.patient.lastName}}</span></div>
+        <div class="field"><span class="label">Date of birth</span><br /><span>{{data.patient.birthdate}}</span></div>
+        <div class="field"><span class="label">Preferred name (optional)</span><br /><span>&nbsp;</span></div>
+        <div class="field"><span class="label">Sex</span><br /><span>{{data.patient.sex}}</span></div>
+        <div class="field"><span class="label">Email address</span><br /><span>{{data.patient.email}}</span></div>
+        <div class="field"><span class="label">Cell phone number</span><br /><span>{{data.patient.cellPhone}}</span></div>
+        <div class="field"><span class="label">Social security number (optional)</span><br /><span>&nbsp;</span></div>
+      </section>
+      <section>
+        <h2>Address & Work</h2>
+        <div class="field"><span class="label">Street address</span><br /><span>265 Bainbridge St</span></div>
+        <div class="field"><span class="label">Apt / Suite #</span><br /><span>Apt 3</span></div>
+        <div class="field"><span class="label">Zip code</span><br /><span>11233</span></div>
+        <div class="field"><span class="label">Occupation</span><br /><span>Product manager</span></div>
+      </section>
+    </div>
+    <div class="pure-u-2-3 l-box">
+      <section>
+        <h2>Emergency Contact</h2>
+        <div class="field"><span class="label">Full name</span><br /><span>Sanaë Lemoine</span></div>
+        <div class="field"><span class="label">Relationship</span><br /><span>Spouse</span></div>
+        <div class="field"><span class="label">Phone number</span><br /><span>7035319514</span></div>
+        <hr />
+      </section>
+      <section>
+        <h2>Primary Care Provider</h2>
+        <div class="field"><span class="label">Full name</span><br /><span>Barry Cohen</span></div>
+        <div class="field"><span class="label">Is this also your referring provider?</span><br /><span>No</span></div>
+        <hr />
+      </section>
+      <section>
+        <h2>Who referred you today?</h2>
+        <div class="field"><span class="label">Full name</span><br /><span>Zocdoc</span></div>
+        <hr />
+      </section>
+      <section>
+        <h2>Would you like to use insurance?</h2>
+        <div class="field"><span>YES</span></div>
+        <hr />
+      </section>
+      <section>
+        <h2>Preferred Pharmacy</h2>
+        <div class="field"><span>I don't have a delivery address in NYC/Westchester, or prefer to use another pharmacy</span></div>
+      </section>
+      <section>
+        <h2>Alternate Pharmacy Details</h2>
+        <div class="field"><span class="label">Pharmacy name</span><br /><span>CVS</span></div>
+        <div class="field"><span class="label">Street address</span><br /><span>272 8th Ave</span></div>
+      </section>
+    </div>
+  </div>
+</div>
+<div class="page">
+  <center><h2>NOTICE OF PRIVACY PRACTICES</h2></center>
+  <div class="pure-g">
+    <div class="pure-u-1-2">Privacy Officer : Dr. Neha Pathak, DPM</div>
+    <div class="pure-u-1-2 right-align">Effective Date : 01/01/2019</div>
+  </div>
+  <p>As required by law, this notice provides you with information about your rights and our legal duties and privacy practices with respect to the privacy of protected health information. It also discusses the uses and disclosures we will make of your protected health information. We must comply with the provisions of this notice as currently in effect, although we reserve the right to change the terms of the notice from time to time and to make the revised notice effective for all protected health information we maintain. You can always request a written copy of our most current privacy notice from the Practice’s Privacy Officer.</p>
+  <p>This office has always recognized the importance of privacy; this new federal law formalizes practices that have been followed routinely.</p>
+  <p>By the law, consent is not required to discuss your medical treatment with your other doctors or healthcare providers. This also allows for a prescription to be called into your pharmacy.</p>
+  <p>Additionally, none is needed in the course of carrying out healthcare operations, such as quality assessment, or in communication with your insurance carrier for payment related issues, or for incidental uses, such as announcing a name in a waiting room or the use of sign-in sheets.</p>
+  <p>However, this office has always gone one step further in protecting you and does not believe in releasing specific information about you to any business or governmental entity without your written consent. Specific authorization is required to disclose protected information in a non-routine circumstance, such as to your employer or for use in marketing a product to you.</p>
+  <p>Medical information about you may be released for research and public health uses, as long as you are not individually identified.</p>
+  <p>We may contact you to provide appointment reminders for treatment or medical care, and also to recommend possible treatment alternatives or other health-related benefits and services that may be of interest to you.</p>
+  <p>You have the right to review when and to whom your information was released. You may suggest additional restrictions with regard to certain uses and disclosures, if you wish.</p>
+  <p>Should you believe that your privacy rights have been compromised, you may report the violation, without penalty to you, to this office or to the Secretary of Health. The law requires that you acknowledge receipt of this notice; this has been included on the signature release on the bottom of this form.</p>
+  <p>You have the right to inspect and copy the protected health information contained in your medical and billing records and in any other practice records used ny use to make decisions about you. You are guaranteed access to review your medical record, and you may amend the record if you believe it to be incomplete or inaccurate.</p>
+  <p>In order to inspect and copy your health information, you must submit your request in writing to the Practice’s Privacy Officer. If you request a copy of your health information, we may charge you a fee for the costs of copying and mailing records, as well as other costs associated with your request.</p>
+  <p>I acknowledge that I have read and understand the above Notice of Privacy Practices.</p>
+  <div class="pure-g">
+    <div class="pure-u-1-2">
+      <div class="signatureFormEl">
+        <div class="signatureFormElField"><img src="{{data.signature}}" class="signature signatureFormElFieldContent"/></div>
+        <hr />
+        <span class="bold">Signature of Patient or Legal Guardian</span>
+      </div>
+      <div class="signatureFormEl">
+        <div class="signatureFormElField"><span class="signatureFormElFieldContent">{{data.patient.lastName}} {{data.patient.lastName}}</span></div>
+        <hr />
+        <span class="bold">Patient Name</span>
+      </div>
+    </div>
+    <div class="pure-u-1-2">
+      <div class="signatureFormEl">
+        <div class="signatureFormElField"><span class="signatureFormElFieldContent">{{data.metadata.createdAtDate}}</span></div>
+        <hr />
+        <span class="bold">Date</span>
+      </div>
+    </div>
+</div>
+</center>
